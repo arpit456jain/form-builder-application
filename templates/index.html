@@ -11,20 +11,51 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <div class="container">
-        <form>
+    <div class="container col-lg-6">
+      <h1>Form</h1>
+        <form class="mx-auto">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              <label class="form-label">Email address</label>
+              <input type="email" class="form-control" id="" name="email">
+              
             </div>
             <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label  class="form-label">Name</label>
+              <input type="password" class="form-control" id="" name="name">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="mb-3">
+              <label  class="form-label">DOB</label>
+              <input type="date" class="form-control" id="" name="name">
+            </div>
+            <div class="mb-3">
+              <label  class="form-label">Image File</label>
+              <input type="file" class="form-control" id="" name="name">
+            </div>
+            <div class="mb-3">
+              <label  class="form-label">DOC File</label>
+              <input type="file" class="form-control" id="" name="name">
+            </div>
+            <div class="mb-3">
+              <select class="form-select">
+                <option selected>Location</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="West Bengal">West Bengal</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender" id="" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Female
+                </label>
+              </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
           </form>
